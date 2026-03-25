@@ -122,19 +122,6 @@ api = "0.8"
     version = "26.0.1"
 
   [[metadata.dependencies]]
-    checksum = "sha256:47533756050acbd7142ecd0d27bb6ca1f10c951ec8d7cd8ac9e94c6f9daca443"
-    cpe = "cpe:2.3:a:python-pipenv:pipenv:2026.2.0:*:*:*:*:python:*:*"
-    id = "pipenv"
-    licenses = ["MIT", "MIT-0"]
-    name = "Pipenv"
-    purl = "pkg:generic/pipenv@2026.2.0?checksum=47533756050acbd7142ecd0d27bb6ca1f10c951ec8d7cd8ac9e94c6f9daca443&download_url=https://files.pythonhosted.org/packages/aa/e6/76aa6cdab85d93b2d198337ad57f833f6ae9d313d9a1115090a04271a9b2/pipenv-2026.2.0.tar.gz"
-    source = "https://files.pythonhosted.org/packages/aa/e6/76aa6cdab85d93b2d198337ad57f833f6ae9d313d9a1115090a04271a9b2/pipenv-2026.2.0.tar.gz"
-    source-checksum = "sha256:47533756050acbd7142ecd0d27bb6ca1f10c951ec8d7cd8ac9e94c6f9daca443"
-    stacks = ["*"]
-    uri = "https://files.pythonhosted.org/packages/aa/e6/76aa6cdab85d93b2d198337ad57f833f6ae9d313d9a1115090a04271a9b2/pipenv-2026.2.0.tar.gz"
-    version = "2026.2.0"
-
-  [[metadata.dependencies]]
     checksum = "sha256:cd2858095181578ec17451f3ff02b8f74eb9038013ddbbc54228c5f0611fa3da"
     cpe = "cpe:2.3:a:python-pipenv:pipenv:2026.2.1:*:*:*:*:python:*:*"
     id = "pipenv"
@@ -146,6 +133,19 @@ api = "0.8"
     stacks = ["*"]
     uri = "https://files.pythonhosted.org/packages/96/9d/2e93a86a928cad6ec97eb419eae582ebc334df7c0665a91c09a6e37abac0/pipenv-2026.2.1.tar.gz"
     version = "2026.2.1"
+
+  [[metadata.dependencies]]
+    checksum = "sha256:56e635cd628644055b414bd01c1e7e33b2441cb46884fc94062cd54f980dd736"
+    cpe = "cpe:2.3:a:python-pipenv:pipenv:2026.2.2:*:*:*:*:python:*:*"
+    id = "pipenv"
+    licenses = ["MIT", "MIT-0"]
+    name = "Pipenv"
+    purl = "pkg:generic/pipenv@2026.2.2?checksum=56e635cd628644055b414bd01c1e7e33b2441cb46884fc94062cd54f980dd736&download_url=https://files.pythonhosted.org/packages/74/5b/7a791ad83309042c88d1fed2bbef16457d3247428db948ca433abed612b3/pipenv-2026.2.2.tar.gz"
+    source = "https://files.pythonhosted.org/packages/74/5b/7a791ad83309042c88d1fed2bbef16457d3247428db948ca433abed612b3/pipenv-2026.2.2.tar.gz"
+    source-checksum = "sha256:56e635cd628644055b414bd01c1e7e33b2441cb46884fc94062cd54f980dd736"
+    stacks = ["*"]
+    uri = "https://files.pythonhosted.org/packages/74/5b/7a791ad83309042c88d1fed2bbef16457d3247428db948ca433abed612b3/pipenv-2026.2.2.tar.gz"
+    version = "2026.2.2"
 
   [[metadata.dependencies]]
     checksum = "sha256:796e2866f35cb57af36280a890f5a5b3f9ef1a2dcf780b945b02be2e82895391"
@@ -305,36 +305,6 @@ api = "0.8"
 
   [[metadata.dependencies]]
     arch = "amd64"
-    checksum = "sha256:ec72570c9d1f33021aa80b176d7baba390de2cfeb1abcbefca346d563bf17484"
-    cpe = "cpe:2.3:a:uv:uv:0.10.12:*:*:*:*:python:*:*"
-    id = "uv"
-    licenses = ["Apache-2.0", "MIT"]
-    name = "uv"
-    os = "linux"
-    purl = "pkg:generic/uv@0.10.12?checksum=sha256:3f07e2db6772114372818078d12888ed35ac5080361a5ef505e2db230d927f15&download_url=https://github.com/astral-sh/uv/releases/download/0.10.12/source.tar.gz"
-    source = "https://github.com/astral-sh/uv/releases/download/0.10.12/source.tar.gz"
-    source-checksum = "sha256:3f07e2db6772114372818078d12888ed35ac5080361a5ef505e2db230d927f15"
-    stacks = ["*"]
-    uri = "https://github.com/astral-sh/uv/releases/download/0.10.12/uv-x86_64-unknown-linux-gnu.tar.gz"
-    version = "0.10.12"
-
-  [[metadata.dependencies]]
-    arch = "arm64"
-    checksum = "sha256:0ed7d20f49f6b9b60d45fdfcac28f3ac01a671a6ef08672401ed2833423fea2a"
-    cpe = "cpe:2.3:a:uv:uv:0.10.12:*:*:*:*:python:*:*"
-    id = "uv"
-    licenses = ["Apache-2.0", "MIT"]
-    name = "uv"
-    os = "linux"
-    purl = "pkg:generic/uv@0.10.12?checksum=sha256:3f07e2db6772114372818078d12888ed35ac5080361a5ef505e2db230d927f15&download_url=https://github.com/astral-sh/uv/releases/download/0.10.12/source.tar.gz"
-    source = "https://github.com/astral-sh/uv/releases/download/0.10.12/source.tar.gz"
-    source-checksum = "sha256:3f07e2db6772114372818078d12888ed35ac5080361a5ef505e2db230d927f15"
-    stacks = ["*"]
-    uri = "https://github.com/astral-sh/uv/releases/download/0.10.12/uv-aarch64-unknown-linux-gnu.tar.gz"
-    version = "0.10.12"
-
-  [[metadata.dependencies]]
-    arch = "amd64"
     checksum = "sha256:cc0fbb42b3642125f600a55b0b095bea65cddaadb94c6ea2b6ba5d79c5825089"
     cpe = "cpe:2.3:a:uv:uv:0.11.0:*:*:*:*:python:*:*"
     id = "uv"
@@ -362,6 +332,36 @@ api = "0.8"
     stacks = ["*"]
     uri = "https://github.com/astral-sh/uv/releases/download/0.11.0/uv-aarch64-unknown-linux-gnu.tar.gz"
     version = "0.11.0"
+
+  [[metadata.dependencies]]
+    arch = "amd64"
+    checksum = "sha256:7c0c8069053e6e99e5911ff32b916be571f3419cd8e11bd28fb7da2c7dcaa553"
+    cpe = "cpe:2.3:a:uv:uv:0.11.1:*:*:*:*:python:*:*"
+    id = "uv"
+    licenses = ["Apache-2.0", "MIT"]
+    name = "uv"
+    os = "linux"
+    purl = "pkg:generic/uv@0.11.1?checksum=sha256:8f0933e0e9ecff80e9fe4efb561b8cff817452572c51d94c203c94f5193c38a9&download_url=https://github.com/astral-sh/uv/releases/download/0.11.1/source.tar.gz"
+    source = "https://github.com/astral-sh/uv/releases/download/0.11.1/source.tar.gz"
+    source-checksum = "sha256:8f0933e0e9ecff80e9fe4efb561b8cff817452572c51d94c203c94f5193c38a9"
+    stacks = ["*"]
+    uri = "https://github.com/astral-sh/uv/releases/download/0.11.1/uv-x86_64-unknown-linux-gnu.tar.gz"
+    version = "0.11.1"
+
+  [[metadata.dependencies]]
+    arch = "arm64"
+    checksum = "sha256:1340e62da1ee3c1109764340e1247e8a1a232c30dde4a0f0548976dcaa90f06d"
+    cpe = "cpe:2.3:a:uv:uv:0.11.1:*:*:*:*:python:*:*"
+    id = "uv"
+    licenses = ["Apache-2.0", "MIT"]
+    name = "uv"
+    os = "linux"
+    purl = "pkg:generic/uv@0.11.1?checksum=sha256:8f0933e0e9ecff80e9fe4efb561b8cff817452572c51d94c203c94f5193c38a9&download_url=https://github.com/astral-sh/uv/releases/download/0.11.1/source.tar.gz"
+    source = "https://github.com/astral-sh/uv/releases/download/0.11.1/source.tar.gz"
+    source-checksum = "sha256:8f0933e0e9ecff80e9fe4efb561b8cff817452572c51d94c203c94f5193c38a9"
+    stacks = ["*"]
+    uri = "https://github.com/astral-sh/uv/releases/download/0.11.1/uv-aarch64-unknown-linux-gnu.tar.gz"
+    version = "0.11.1"
 
   [[metadata.dependencies]]
     arch = "amd64"
