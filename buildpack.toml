@@ -364,36 +364,6 @@ api = "0.8"
     version = "0.11.7"
 
   [[metadata.dependencies]]
-    arch = "arm64"
-    checksum = "sha256:415d43838219cf82db8f44dfe6bd1dc835f4d77d68ac1bd20dff8c15098aea96"
-    cpe = "cpe:2.3:a:pixi:pixi:0.67.0:*:*:*:*:python:*:*"
-    id = "pixi"
-    licenses = ["BSD-3-Clause"]
-    name = "pixi"
-    os = "linux"
-    purl = "pkg:generic/pixi@0.67.0?checksum=sha256:7a6ed3c9afdeb2a3c85218d97be2bd049d788804d729780b42589a68c539a9fb&download_url=https://github.com/prefix-dev/pixi/releases/download/v0.67.0/source.tar.gz"
-    source = "https://github.com/prefix-dev/pixi/releases/download/v0.67.0/source.tar.gz"
-    source-checksum = "sha256:7a6ed3c9afdeb2a3c85218d97be2bd049d788804d729780b42589a68c539a9fb"
-    stacks = ["*"]
-    uri = "https://github.com/prefix-dev/pixi/releases/download/v0.67.0/pixi-aarch64-unknown-linux-musl.tar.gz"
-    version = "0.67.0"
-
-  [[metadata.dependencies]]
-    arch = "amd64"
-    checksum = "sha256:8cd89036e77a7b63ae1e85d9b89adb29d506527720ef9a26536534c2813eb0c2"
-    cpe = "cpe:2.3:a:pixi:pixi:0.67.0:*:*:*:*:python:*:*"
-    id = "pixi"
-    licenses = ["BSD-3-Clause"]
-    name = "pixi"
-    os = "linux"
-    purl = "pkg:generic/pixi@0.67.0?checksum=sha256:7a6ed3c9afdeb2a3c85218d97be2bd049d788804d729780b42589a68c539a9fb&download_url=https://github.com/prefix-dev/pixi/releases/download/v0.67.0/source.tar.gz"
-    source = "https://github.com/prefix-dev/pixi/releases/download/v0.67.0/source.tar.gz"
-    source-checksum = "sha256:7a6ed3c9afdeb2a3c85218d97be2bd049d788804d729780b42589a68c539a9fb"
-    stacks = ["*"]
-    uri = "https://github.com/prefix-dev/pixi/releases/download/v0.67.0/pixi-x86_64-unknown-linux-musl.tar.gz"
-    version = "0.67.0"
-
-  [[metadata.dependencies]]
     arch = "amd64"
     checksum = "sha256:0fa0ada4facf076366178915e60d2b68b9016e3f933bbfad5caf59157f3d1150"
     cpe = "cpe:2.3:a:pixi:pixi:0.67.1:*:*:*:*:python:*:*"
@@ -422,6 +392,36 @@ api = "0.8"
     stacks = ["*"]
     uri = "https://github.com/prefix-dev/pixi/releases/download/v0.67.1/pixi-aarch64-unknown-linux-musl.tar.gz"
     version = "0.67.1"
+
+  [[metadata.dependencies]]
+    arch = "amd64"
+    checksum = "sha256:a2e8d1dc18351e71a67cee22c8ff1635636d625c7d2dcf068ca035cda1dd133b"
+    cpe = "cpe:2.3:a:pixi:pixi:0.67.2:*:*:*:*:python:*:*"
+    id = "pixi"
+    licenses = ["BSD-3-Clause"]
+    name = "pixi"
+    os = "linux"
+    purl = "pkg:generic/pixi@0.67.2?checksum=sha256:9b8cdf41e00a6db48019e6165fed0013e852949e13881f32b389b959be61bb49&download_url=https://github.com/prefix-dev/pixi/releases/download/v0.67.2/source.tar.gz"
+    source = "https://github.com/prefix-dev/pixi/releases/download/v0.67.2/source.tar.gz"
+    source-checksum = "sha256:9b8cdf41e00a6db48019e6165fed0013e852949e13881f32b389b959be61bb49"
+    stacks = ["*"]
+    uri = "https://github.com/prefix-dev/pixi/releases/download/v0.67.2/pixi-x86_64-unknown-linux-musl.tar.gz"
+    version = "0.67.2"
+
+  [[metadata.dependencies]]
+    arch = "arm64"
+    checksum = "sha256:0f1ca00409f9324ed6c74cd6190dcb86d378bd49636c486d8f76231afab3352f"
+    cpe = "cpe:2.3:a:pixi:pixi:0.67.2:*:*:*:*:python:*:*"
+    id = "pixi"
+    licenses = ["BSD-3-Clause"]
+    name = "pixi"
+    os = "linux"
+    purl = "pkg:generic/pixi@0.67.2?checksum=sha256:9b8cdf41e00a6db48019e6165fed0013e852949e13881f32b389b959be61bb49&download_url=https://github.com/prefix-dev/pixi/releases/download/v0.67.2/source.tar.gz"
+    source = "https://github.com/prefix-dev/pixi/releases/download/v0.67.2/source.tar.gz"
+    source-checksum = "sha256:9b8cdf41e00a6db48019e6165fed0013e852949e13881f32b389b959be61bb49"
+    stacks = ["*"]
+    uri = "https://github.com/prefix-dev/pixi/releases/download/v0.67.2/pixi-aarch64-unknown-linux-musl.tar.gz"
+    version = "0.67.2"
 
   [[metadata.dependency-constraints]]
     constraint = "*"
