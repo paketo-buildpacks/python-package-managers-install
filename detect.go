@@ -6,6 +6,10 @@
 package pythoninstallers
 
 import (
+	"fmt"
+	"os"
+	"strconv"
+
 	"github.com/paketo-buildpacks/packit/v2"
 	"github.com/paketo-buildpacks/packit/v2/scribe"
 
@@ -76,6 +80,23 @@ func Detect(logger scribe.Emitter, pyProjectParser poetry.PyProjectParser) packi
 
 		if len(plans) == 0 {
 			return packit.DetectResult{}, packit.Fail.WithMessage("No python packager manager related files found")
+		}
+
+		shouldUsePackageManagers := false
+
+		if usePackageManagers, ok := os.LookupEnv(PackageManagersEnv); ok {
+			shouldUsePackageManagers, err = strconv.ParseBool(usePackageManagers)
+			if err != nil {
+				return packit.DetectResult{}, fmt.Errorf("failed to parse %s value %s: %w", PackageManagersEnv, usePackageManagers, err)
+			}
+		}
+
+		if shouldUsePackageManagers {
+			for i, plan := range plans {
+				plans[i].Provides = append(plan.Provides, packit.BuildPlanProvision{
+					Name: PackageManagersInstallPlanEntry,
+				})
+			}
 		}
 
 		return packit.DetectResult{

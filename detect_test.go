@@ -28,6 +28,7 @@ import (
 	"github.com/sclevine/spec"
 
 	. "github.com/onsi/gomega"
+	"github.com/onsi/gomega/gstruct"
 )
 
 func testDetect(t *testing.T, context spec.G, it spec.S) {
@@ -274,5 +275,25 @@ func testDetect(t *testing.T, context spec.G, it spec.S) {
 				Expect(result.Plan).To(Equal(pythoninstallers.Or(withUv...)))
 			})
 		})
+
+		context("When BP_ENABLE_PACKAGE_MANAGERS is set", func() {
+			it.Before(func() {
+				t.Setenv("BP_ENABLE_PACKAGE_MANAGERS", "true")
+				Expect(os.WriteFile(filepath.Join(workingDir, "environment.yml"), []byte{}, os.ModePerm)).To(Succeed())
+			})
+
+			it("passes detection", func() {
+				result, err := detect(packit.DetectContext{
+					WorkingDir: workingDir,
+				})
+				Expect(err).NotTo(HaveOccurred())
+				Expect(result.Plan.Provides).To(ContainElement(
+					gstruct.MatchAllFields(gstruct.Fields{
+						"Name": Equal(pythoninstallers.PackageManagersInstallPlanEntry),
+					}),
+				))
+			})
+		})
+
 	})
 }
