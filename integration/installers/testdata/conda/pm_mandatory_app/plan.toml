@@ -9,4 +9,4 @@
   launch = true
 
 [[requires]]
-name = "package-managers-installers"
+name = "package-managers-install"
