@@ -98,18 +98,6 @@ api = "0.8"
     version = "25.9.1"
 
   [[metadata.dependencies]]
-    checksum = "sha256:9a50d70354e78b55bb65578093db28b594ee04448da26096e4db4d02580fa33e"
-    cpe = "cpe:2.3:a:pypa:pip:26.0.1:*:*:*:*:python:*:*"
-    id = "pip"
-    licenses = ["MIT"]
-    purl = "pkg:generic/pip@26.0.1?checksum=c4037d8a277c89b320abe636d59f91e6d0922d08a05b60e85e53b296613346d8&download_url=https://files.pythonhosted.org/packages/48/83/0d7d4e9efe3344b8e2fe25d93be44f64b65364d3c8d7bc6dc90198d5422e/pip-26.0.1.tar.gz"
-    source = "https://files.pythonhosted.org/packages/48/83/0d7d4e9efe3344b8e2fe25d93be44f64b65364d3c8d7bc6dc90198d5422e/pip-26.0.1.tar.gz"
-    source-checksum = "sha256:c4037d8a277c89b320abe636d59f91e6d0922d08a05b60e85e53b296613346d8"
-    stacks = ["*"]
-    uri = "https://artifacts.paketo.io/uv/pip_26.0.1_noarch_9a50d703.tgz"
-    version = "26.0.1"
-
-  [[metadata.dependencies]]
     checksum = "sha256:ea39932968b258a307cd3386e6b1c53cfc0ad4781a5374f41025435230c9aee5"
     cpe = "cpe:2.3:a:pypa:pip:26.1.0:*:*:*:*:python:*:*"
     id = "pip"
@@ -120,6 +108,18 @@ api = "0.8"
     stacks = ["*"]
     uri = "https://artifacts.paketo.io/pip/pip_26.1.0_noarch_ea399329.tgz"
     version = "26.1.0"
+
+  [[metadata.dependencies]]
+    checksum = "sha256:d9b57151cce4af0d12bf4651d7a47e70f9d02eb79e7709e4a9002d67bcc69deb"
+    cpe = "cpe:2.3:a:pypa:pip:26.1.1:*:*:*:*:python:*:*"
+    id = "pip"
+    licenses = ["MIT"]
+    purl = "pkg:generic/pip@26.1.1?checksum=d36762751d156a4ee895de8af39aa0abeeeb577f93a2eca6ab62467bbf0f8a78&download_url=https://files.pythonhosted.org/packages/b6/48/cb9b7a682f6fe01a4221e1728941dd4ac3cd9090a17db3779d6ff490b602/pip-26.1.1.tar.gz"
+    source = "https://files.pythonhosted.org/packages/b6/48/cb9b7a682f6fe01a4221e1728941dd4ac3cd9090a17db3779d6ff490b602/pip-26.1.1.tar.gz"
+    source-checksum = "sha256:d36762751d156a4ee895de8af39aa0abeeeb577f93a2eca6ab62467bbf0f8a78"
+    stacks = ["*"]
+    uri = "https://artifacts.paketo.io/pip/pip_26.1.1_noarch_d9b57151.tgz"
+    version = "26.1.1"
 
   [[metadata.dependencies]]
     checksum = "sha256:84262cc298ffed36f7463d8c16255d9edf63e5fda5dbee8ccc4a80f6d774590f"
@@ -305,36 +305,6 @@ api = "0.8"
 
   [[metadata.dependencies]]
     arch = "amd64"
-    checksum = "sha256:6681d691eb7f9c00ac6a3af54252f7ab29ae72f0c8f95bdc7f9d1401c23ea868"
-    cpe = "cpe:2.3:a:uv:uv:0.11.7:*:*:*:*:python:*:*"
-    id = "uv"
-    licenses = ["Apache-2.0", "MIT"]
-    name = "uv"
-    os = "linux"
-    purl = "pkg:generic/uv@0.11.7?checksum=sha256:c0ef1fd8b182266454176866194e8cfd1b4f6e819863ccea6b3877614e924d9c&download_url=https://github.com/astral-sh/uv/releases/download/0.11.7/source.tar.gz"
-    source = "https://github.com/astral-sh/uv/releases/download/0.11.7/source.tar.gz"
-    source-checksum = "sha256:c0ef1fd8b182266454176866194e8cfd1b4f6e819863ccea6b3877614e924d9c"
-    stacks = ["*"]
-    uri = "https://github.com/astral-sh/uv/releases/download/0.11.7/uv-x86_64-unknown-linux-gnu.tar.gz"
-    version = "0.11.7"
-
-  [[metadata.dependencies]]
-    arch = "arm64"
-    checksum = "sha256:f2ee1cde9aabb4c6e43bd3f341dadaf42189a54e001e521346dc31547310e284"
-    cpe = "cpe:2.3:a:uv:uv:0.11.7:*:*:*:*:python:*:*"
-    id = "uv"
-    licenses = ["Apache-2.0", "MIT"]
-    name = "uv"
-    os = "linux"
-    purl = "pkg:generic/uv@0.11.7?checksum=sha256:c0ef1fd8b182266454176866194e8cfd1b4f6e819863ccea6b3877614e924d9c&download_url=https://github.com/astral-sh/uv/releases/download/0.11.7/source.tar.gz"
-    source = "https://github.com/astral-sh/uv/releases/download/0.11.7/source.tar.gz"
-    source-checksum = "sha256:c0ef1fd8b182266454176866194e8cfd1b4f6e819863ccea6b3877614e924d9c"
-    stacks = ["*"]
-    uri = "https://github.com/astral-sh/uv/releases/download/0.11.7/uv-aarch64-unknown-linux-gnu.tar.gz"
-    version = "0.11.7"
-
-  [[metadata.dependencies]]
-    arch = "amd64"
     checksum = "sha256:56dd1b66701ecb62fe896abb919444e4b83c5e8645cca953e6ddd496ff8a0feb"
     cpe = "cpe:2.3:a:uv:uv:0.11.8:*:*:*:*:python:*:*"
     id = "uv"
@@ -362,6 +332,36 @@ api = "0.8"
     stacks = ["*"]
     uri = "https://github.com/astral-sh/uv/releases/download/0.11.8/uv-aarch64-unknown-linux-gnu.tar.gz"
     version = "0.11.8"
+
+  [[metadata.dependencies]]
+    arch = "amd64"
+    checksum = "sha256:5c43f82077ff0cd5aec588286cbabd89913e4d045bd4e8aa60b20b3ecffc36e3"
+    cpe = "cpe:2.3:a:uv:uv:0.11.9:*:*:*:*:python:*:*"
+    id = "uv"
+    licenses = ["Apache-2.0", "MIT"]
+    name = "uv"
+    os = "linux"
+    purl = "pkg:generic/uv@0.11.9?checksum=sha256:47f8ce4e825f6fed374a883693363b3c0e39722822d387a24b273939acc6fe95&download_url=https://github.com/astral-sh/uv/releases/download/0.11.9/source.tar.gz"
+    source = "https://github.com/astral-sh/uv/releases/download/0.11.9/source.tar.gz"
+    source-checksum = "sha256:47f8ce4e825f6fed374a883693363b3c0e39722822d387a24b273939acc6fe95"
+    stacks = ["*"]
+    uri = "https://github.com/astral-sh/uv/releases/download/0.11.9/uv-x86_64-unknown-linux-gnu.tar.gz"
+    version = "0.11.9"
+
+  [[metadata.dependencies]]
+    arch = "arm64"
+    checksum = "sha256:6d22be8d0d675668f657cee802a1344ea7941403f59eb2a6645ef316f69b4309"
+    cpe = "cpe:2.3:a:uv:uv:0.11.9:*:*:*:*:python:*:*"
+    id = "uv"
+    licenses = ["Apache-2.0", "MIT"]
+    name = "uv"
+    os = "linux"
+    purl = "pkg:generic/uv@0.11.9?checksum=sha256:47f8ce4e825f6fed374a883693363b3c0e39722822d387a24b273939acc6fe95&download_url=https://github.com/astral-sh/uv/releases/download/0.11.9/source.tar.gz"
+    source = "https://github.com/astral-sh/uv/releases/download/0.11.9/source.tar.gz"
+    source-checksum = "sha256:47f8ce4e825f6fed374a883693363b3c0e39722822d387a24b273939acc6fe95"
+    stacks = ["*"]
+    uri = "https://github.com/astral-sh/uv/releases/download/0.11.9/uv-aarch64-unknown-linux-gnu.tar.gz"
+    version = "0.11.9"
 
   [[metadata.dependencies]]
     arch = "amd64"
