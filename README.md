@@ -32,6 +32,22 @@ The buildpack will do the following:
 * At run time:
   - Does nothing
 
+## Configuration
+
+### `BP_ENABLE_PACKAGE_MANAGERS`
+
+The `BP_ENABLE_PACKAGE_MANAGERS` environment variable allows you to force the use
+of this buildpack for all the supported package managers. It works in tandem
+with `python-start`. `python-start` will add a requirement that is fulfilled by
+this buildpack.
+
+It is currently used as an opt-in to allow Paketo users to do tests before the
+old buildpacks get retired.
+
+```shell
+BP_ENABLE_PACKAGE_MANAGERS=true
+```
+
 ## Usage
 
 To package this buildpack for consumption:
