@@ -305,36 +305,6 @@ api = "0.8"
 
   [[metadata.dependencies]]
     arch = "amd64"
-    checksum = "sha256:588f3e360f69ce02b6982aa99f2240e803933a6b7e176ac01617830adf955add"
-    cpe = "cpe:2.3:a:uv:uv:0.11.18:*:*:*:*:python:*:*"
-    id = "uv"
-    licenses = ["Apache-2.0", "MIT"]
-    name = "uv"
-    os = "linux"
-    purl = "pkg:generic/uv@0.11.18?checksum=sha256:d859732513788b442fb77f8ed29c64ef7ed72815b9f7252536e03440d54b51ed&download_url=https://github.com/astral-sh/uv/releases/download/0.11.18/source.tar.gz"
-    source = "https://github.com/astral-sh/uv/releases/download/0.11.18/source.tar.gz"
-    source-checksum = "sha256:d859732513788b442fb77f8ed29c64ef7ed72815b9f7252536e03440d54b51ed"
-    stacks = ["*"]
-    uri = "https://github.com/astral-sh/uv/releases/download/0.11.18/uv-x86_64-unknown-linux-gnu.tar.gz"
-    version = "0.11.18"
-
-  [[metadata.dependencies]]
-    arch = "arm64"
-    checksum = "sha256:0f03c6648df1c159557f4222c0f37250f84733fb88d6fc3c16770e17c177a8c9"
-    cpe = "cpe:2.3:a:uv:uv:0.11.18:*:*:*:*:python:*:*"
-    id = "uv"
-    licenses = ["Apache-2.0", "MIT"]
-    name = "uv"
-    os = "linux"
-    purl = "pkg:generic/uv@0.11.18?checksum=sha256:d859732513788b442fb77f8ed29c64ef7ed72815b9f7252536e03440d54b51ed&download_url=https://github.com/astral-sh/uv/releases/download/0.11.18/source.tar.gz"
-    source = "https://github.com/astral-sh/uv/releases/download/0.11.18/source.tar.gz"
-    source-checksum = "sha256:d859732513788b442fb77f8ed29c64ef7ed72815b9f7252536e03440d54b51ed"
-    stacks = ["*"]
-    uri = "https://github.com/astral-sh/uv/releases/download/0.11.18/uv-aarch64-unknown-linux-gnu.tar.gz"
-    version = "0.11.18"
-
-  [[metadata.dependencies]]
-    arch = "amd64"
     checksum = "sha256:7035608168e106375b36d0c818d537a889c51a8625fe7f8f7cad5e62b947c368"
     cpe = "cpe:2.3:a:uv:uv:0.11.19:*:*:*:*:python:*:*"
     id = "uv"
@@ -362,6 +332,36 @@ api = "0.8"
     stacks = ["*"]
     uri = "https://github.com/astral-sh/uv/releases/download/0.11.19/uv-aarch64-unknown-linux-gnu.tar.gz"
     version = "0.11.19"
+
+  [[metadata.dependencies]]
+    arch = "amd64"
+    checksum = "sha256:5de211d9278af365497d387e25316907b3b4a9f25b4476dd6dbf238d6f85cff3"
+    cpe = "cpe:2.3:a:uv:uv:0.11.20:*:*:*:*:python:*:*"
+    id = "uv"
+    licenses = ["Apache-2.0", "MIT"]
+    name = "uv"
+    os = "linux"
+    purl = "pkg:generic/uv@0.11.20?checksum=sha256:d0bd5e24ac77b8f75af8206f258b3a432b2b1339d7bd260e0e3f1d7ad0b417c3&download_url=https://github.com/astral-sh/uv/releases/download/0.11.20/source.tar.gz"
+    source = "https://github.com/astral-sh/uv/releases/download/0.11.20/source.tar.gz"
+    source-checksum = "sha256:d0bd5e24ac77b8f75af8206f258b3a432b2b1339d7bd260e0e3f1d7ad0b417c3"
+    stacks = ["*"]
+    uri = "https://github.com/astral-sh/uv/releases/download/0.11.20/uv-x86_64-unknown-linux-gnu.tar.gz"
+    version = "0.11.20"
+
+  [[metadata.dependencies]]
+    arch = "arm64"
+    checksum = "sha256:c8b5b7f9c804b640da0bb66cddddf0a00ce971f64d8076622d70bd141bc80857"
+    cpe = "cpe:2.3:a:uv:uv:0.11.20:*:*:*:*:python:*:*"
+    id = "uv"
+    licenses = ["Apache-2.0", "MIT"]
+    name = "uv"
+    os = "linux"
+    purl = "pkg:generic/uv@0.11.20?checksum=sha256:d0bd5e24ac77b8f75af8206f258b3a432b2b1339d7bd260e0e3f1d7ad0b417c3&download_url=https://github.com/astral-sh/uv/releases/download/0.11.20/source.tar.gz"
+    source = "https://github.com/astral-sh/uv/releases/download/0.11.20/source.tar.gz"
+    source-checksum = "sha256:d0bd5e24ac77b8f75af8206f258b3a432b2b1339d7bd260e0e3f1d7ad0b417c3"
+    stacks = ["*"]
+    uri = "https://github.com/astral-sh/uv/releases/download/0.11.20/uv-aarch64-unknown-linux-gnu.tar.gz"
+    version = "0.11.20"
 
   [[metadata.dependencies]]
     arch = "amd64"
