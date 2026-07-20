@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 	"testing"
 
 	"github.com/paketo-buildpacks/occam"
@@ -42,7 +43,7 @@ func pmTestMandatory(t *testing.T, context spec.G, it spec.S) {
 			name, err = occam.RandomName()
 			Expect(err).NotTo(HaveOccurred())
 
-			source, err = occam.Source(filepath.Join("testdata", "conda", "pm_mandatory_app"))
+			source, err = occam.Source(filepath.Join("testdata", "pip", "pm_mandatory_app"))
 			Expect(err).NotTo(HaveOccurred())
 		})
 
@@ -60,6 +61,7 @@ func pmTestMandatory(t *testing.T, context spec.G, it spec.S) {
 			image, logs, err = pack.WithNoColor().Build.
 				WithPullPolicy("never").
 				WithBuildpacks(
+					settings.Buildpacks.CPython.Online,
 					settings.Buildpacks.PythonInstallers.Online,
 					settings.Buildpacks.BuildPlan.Online,
 				).
@@ -70,9 +72,7 @@ func pmTestMandatory(t *testing.T, context spec.G, it spec.S) {
 			Expect(err).NotTo(HaveOccurred(), logs.String())
 
 			container, err = docker.Container.Run.
-				WithCommand("conda info").
-				WithPublish("8080").
-				WithPublishAll().
+				WithCommand("pip --version").
 				Execute(image.ID)
 			Expect(err).NotTo(HaveOccurred())
 
@@ -80,7 +80,7 @@ func pmTestMandatory(t *testing.T, context spec.G, it spec.S) {
 				cLogs, err := docker.Container.Logs.Execute(container.ID)
 				Expect(err).NotTo(HaveOccurred())
 				return cLogs.String()
-			}).Should(MatchRegexp(`conda version : \d+\.\d+\.\d+`))
+			}).Should(MatchRegexp(fmt.Sprintf(`pip \d+\.\d+(\.\d+)? from /layers/%s/pip/lib/python\d+.\d+/site-packages/pip`, strings.ReplaceAll(buildpackInfo.Buildpack.ID, "/", "_"))))
 		})
 	})
 
@@ -95,7 +95,7 @@ func pmTestMandatory(t *testing.T, context spec.G, it spec.S) {
 			name, err = occam.RandomName()
 			Expect(err).NotTo(HaveOccurred())
 
-			source, err = occam.Source(filepath.Join("testdata", "conda", "miniconda_app"))
+			source, err = occam.Source(filepath.Join("testdata", "pip", "pip_app"))
 			Expect(err).NotTo(HaveOccurred())
 		})
 
@@ -106,6 +106,7 @@ func pmTestMandatory(t *testing.T, context spec.G, it spec.S) {
 			_, logs, err = pack.WithNoColor().Build.
 				WithPullPolicy("never").
 				WithBuildpacks(
+					settings.Buildpacks.CPython.Online,
 					settings.Buildpacks.PythonInstallers.Online,
 					settings.Buildpacks.BuildPlan.Online,
 				).

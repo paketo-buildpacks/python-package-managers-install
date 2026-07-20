@@ -3,10 +3,16 @@
 # SPDX-License-Identifier: Apache-2.0
 
 [[requires]]
-  name = "conda"
+name = "pip"
 
 [requires.metadata]
-  launch = true
+launch = true
+
+[[requires]]
+name = "cpython"
+
+[requires.metadata]
+launch = true
 
 [[requires]]
 name = "package-managers-install"
