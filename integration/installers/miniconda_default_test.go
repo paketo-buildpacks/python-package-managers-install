@@ -73,7 +73,8 @@ func minicondaTestDefault(t *testing.T, context spec.G, it spec.S) {
 				WithBuildpacks(
 					settings.Buildpacks.PythonInstallers.Online,
 					settings.Buildpacks.BuildPlan.Online,
-				),
+				).
+				WithClearCache(),
 				name,
 				source,
 			)
