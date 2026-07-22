@@ -8,6 +8,7 @@ package integration_helpers
 import (
 	"errors"
 	"fmt"
+	"strings"
 	"testing"
 
 	"github.com/paketo-buildpacks/occam"
@@ -76,9 +77,24 @@ type RetryBuild struct {
 	retry int
 }
 
+type LogList []fmt.Stringer
+
+func (l LogList) String() string {
+	var builder strings.Builder
+
+	for index, value := range l {
+		if index > 0 {
+			builder.WriteString("\n")
+		}
+		builder.WriteString(value.String())
+	}
+
+	return builder.String()
+}
+
 func (r *RetryBuild) Execute(packBuild occam.PackBuild, name string, source string) (occam.Image, fmt.Stringer, error) {
 	var image occam.Image
-	var logs fmt.Stringer
+	var allLogs LogList
 	var errs error
 
 	for i := range r.retry + 1 {
@@ -86,14 +102,16 @@ func (r *RetryBuild) Execute(packBuild occam.PackBuild, name string, source stri
 			r.t.Logf("Retry %v\n", i)
 		}
 		var err error
+		var logs fmt.Stringer
 		image, logs, err = packBuild.Execute(name, source)
+		allLogs = append(allLogs, logs)
 		if err == nil {
-			return image, logs, err
+			return image, allLogs, err
 		} else {
 			errs = errors.Join(errs, err)
 			r.t.Logf("Build failed: %v\n", err)
 		}
 	}
 
-	return image, logs, errs
+	return image, allLogs, errs
 }
