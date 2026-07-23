@@ -237,7 +237,7 @@ func getAllMinicondaVersions() (versionology.VersionFetcherArray, error) {
 		return nil, err
 	}
 
-	re := regexp.MustCompile(`Miniconda3-py39_(?P<Version>\d+.\d+.\d+(-\d+)?)-Linux-(?P<Arch>x86_64|aarch64)`)
+	re := regexp.MustCompile(`Miniconda3-py310_(?P<Version>\d+.\d+.\d+(-\d+)?)-Linux-(?P<Arch>x86_64|aarch64)`)
 	matches := filtered(condaInstallersTable, re)
 
 	// Keeping only six most recent versions as otherwise it means spamming the release
