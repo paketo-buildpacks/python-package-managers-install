@@ -341,36 +341,6 @@ api = "0.8"
 
   [[metadata.dependencies]]
     arch = "amd64"
-    checksum = "sha256:aab924fd522efd06f1c5f3b93a243864fc453132c94b2dc49f1371b528a4b967"
-    cpe = "cpe:2.3:a:uv:uv:0.11.32:*:*:*:*:python:*:*"
-    id = "uv"
-    licenses = ["Apache-2.0", "MIT"]
-    name = "uv"
-    os = "linux"
-    purl = "pkg:generic/uv@0.11.32?checksum=sha256:5cd5492f5df6b5144a43e2fa32418806fbbff018b8fbee2d8f14f2eb770fc364&download_url=https://github.com/astral-sh/uv/releases/download/0.11.32/source.tar.gz"
-    source = "https://github.com/astral-sh/uv/releases/download/0.11.32/source.tar.gz"
-    source-checksum = "sha256:5cd5492f5df6b5144a43e2fa32418806fbbff018b8fbee2d8f14f2eb770fc364"
-    stacks = ["*"]
-    uri = "https://github.com/astral-sh/uv/releases/download/0.11.32/uv-x86_64-unknown-linux-gnu.tar.gz"
-    version = "0.11.32"
-
-  [[metadata.dependencies]]
-    arch = "arm64"
-    checksum = "sha256:4d4fa08d95b06642e5800df6a22bd71455f23f988269e18da2847971d8c0bf31"
-    cpe = "cpe:2.3:a:uv:uv:0.11.32:*:*:*:*:python:*:*"
-    id = "uv"
-    licenses = ["Apache-2.0", "MIT"]
-    name = "uv"
-    os = "linux"
-    purl = "pkg:generic/uv@0.11.32?checksum=sha256:5cd5492f5df6b5144a43e2fa32418806fbbff018b8fbee2d8f14f2eb770fc364&download_url=https://github.com/astral-sh/uv/releases/download/0.11.32/source.tar.gz"
-    source = "https://github.com/astral-sh/uv/releases/download/0.11.32/source.tar.gz"
-    source-checksum = "sha256:5cd5492f5df6b5144a43e2fa32418806fbbff018b8fbee2d8f14f2eb770fc364"
-    stacks = ["*"]
-    uri = "https://github.com/astral-sh/uv/releases/download/0.11.32/uv-aarch64-unknown-linux-gnu.tar.gz"
-    version = "0.11.32"
-
-  [[metadata.dependencies]]
-    arch = "amd64"
     checksum = "sha256:aa9fca823c03289fb6e3460b3dc864f3ea895cafaf9b99247701a67b17d1b018"
     cpe = "cpe:2.3:a:uv:uv:0.11.33:*:*:*:*:python:*:*"
     id = "uv"
@@ -401,33 +371,33 @@ api = "0.8"
 
   [[metadata.dependencies]]
     arch = "amd64"
-    checksum = "sha256:682564e7cd35d38307df3cd6c8e9a45a1437d20febac0c8d165809d7c38408d1"
-    cpe = "cpe:2.3:a:pixi:pixi:0.73.0:*:*:*:*:python:*:*"
-    id = "pixi"
-    licenses = ["BSD-3-Clause"]
-    name = "pixi"
+    checksum = "sha256:eaf842262aa1c418d8ecc5605f02ee1ebfd369124fa48548e85f9481a47831a9"
+    cpe = "cpe:2.3:a:uv:uv:0.12.0:*:*:*:*:python:*:*"
+    id = "uv"
+    licenses = ["Apache-2.0", "MIT"]
+    name = "uv"
     os = "linux"
-    purl = "pkg:generic/pixi@0.73.0?checksum=sha256:78c0018cec2177ecf63f343eeda41034a8adf30856d8455a64010fdfff17265f&download_url=https://github.com/prefix-dev/pixi/releases/download/v0.73.0/source.tar.gz"
-    source = "https://github.com/prefix-dev/pixi/releases/download/v0.73.0/source.tar.gz"
-    source-checksum = "sha256:78c0018cec2177ecf63f343eeda41034a8adf30856d8455a64010fdfff17265f"
+    purl = "pkg:generic/uv@0.12.0?checksum=sha256:a9e70a8a6f5c9dba9a1761dab4e0d3c2245b9fada1d6aca31a9a1d0a35f9ef0f&download_url=https://github.com/astral-sh/uv/releases/download/0.12.0/source.tar.gz"
+    source = "https://github.com/astral-sh/uv/releases/download/0.12.0/source.tar.gz"
+    source-checksum = "sha256:a9e70a8a6f5c9dba9a1761dab4e0d3c2245b9fada1d6aca31a9a1d0a35f9ef0f"
     stacks = ["*"]
-    uri = "https://github.com/prefix-dev/pixi/releases/download/v0.73.0/pixi-x86_64-unknown-linux-musl.tar.gz"
-    version = "0.73.0"
+    uri = "https://github.com/astral-sh/uv/releases/download/0.12.0/uv-x86_64-unknown-linux-gnu.tar.gz"
+    version = "0.12.0"
 
   [[metadata.dependencies]]
     arch = "arm64"
-    checksum = "sha256:0788f47eb37e0706de209c3ce81cc804ee128f7dd4ec09a686754a67170ddb64"
-    cpe = "cpe:2.3:a:pixi:pixi:0.73.0:*:*:*:*:python:*:*"
-    id = "pixi"
-    licenses = ["BSD-3-Clause"]
-    name = "pixi"
+    checksum = "sha256:2c5d6e3092cc5223b10ff403880cc75121bf64e84644e7a0c69f643b0d89ac95"
+    cpe = "cpe:2.3:a:uv:uv:0.12.0:*:*:*:*:python:*:*"
+    id = "uv"
+    licenses = ["Apache-2.0", "MIT"]
+    name = "uv"
     os = "linux"
-    purl = "pkg:generic/pixi@0.73.0?checksum=sha256:78c0018cec2177ecf63f343eeda41034a8adf30856d8455a64010fdfff17265f&download_url=https://github.com/prefix-dev/pixi/releases/download/v0.73.0/source.tar.gz"
-    source = "https://github.com/prefix-dev/pixi/releases/download/v0.73.0/source.tar.gz"
-    source-checksum = "sha256:78c0018cec2177ecf63f343eeda41034a8adf30856d8455a64010fdfff17265f"
+    purl = "pkg:generic/uv@0.12.0?checksum=sha256:a9e70a8a6f5c9dba9a1761dab4e0d3c2245b9fada1d6aca31a9a1d0a35f9ef0f&download_url=https://github.com/astral-sh/uv/releases/download/0.12.0/source.tar.gz"
+    source = "https://github.com/astral-sh/uv/releases/download/0.12.0/source.tar.gz"
+    source-checksum = "sha256:a9e70a8a6f5c9dba9a1761dab4e0d3c2245b9fada1d6aca31a9a1d0a35f9ef0f"
     stacks = ["*"]
-    uri = "https://github.com/prefix-dev/pixi/releases/download/v0.73.0/pixi-aarch64-unknown-linux-musl.tar.gz"
-    version = "0.73.0"
+    uri = "https://github.com/astral-sh/uv/releases/download/0.12.0/uv-aarch64-unknown-linux-gnu.tar.gz"
+    version = "0.12.0"
 
   [[metadata.dependencies]]
     arch = "amd64"
@@ -458,6 +428,36 @@ api = "0.8"
     stacks = ["*"]
     uri = "https://github.com/prefix-dev/pixi/releases/download/v0.74.0/pixi-aarch64-unknown-linux-musl.tar.gz"
     version = "0.74.0"
+
+  [[metadata.dependencies]]
+    arch = "amd64"
+    checksum = "sha256:bcd825d62905c29b3c754b71f9cdc9d6f119454398f58330f111a7b6a0de0a3f"
+    cpe = "cpe:2.3:a:pixi:pixi:0.75.0:*:*:*:*:python:*:*"
+    id = "pixi"
+    licenses = ["BSD-3-Clause"]
+    name = "pixi"
+    os = "linux"
+    purl = "pkg:generic/pixi@0.75.0?checksum=sha256:785e4f565e678eb6705151c7c625122b8c4862bd44a1875bc1b057e45aa75f51&download_url=https://github.com/prefix-dev/pixi/releases/download/v0.75.0/source.tar.gz"
+    source = "https://github.com/prefix-dev/pixi/releases/download/v0.75.0/source.tar.gz"
+    source-checksum = "sha256:785e4f565e678eb6705151c7c625122b8c4862bd44a1875bc1b057e45aa75f51"
+    stacks = ["*"]
+    uri = "https://github.com/prefix-dev/pixi/releases/download/v0.75.0/pixi-x86_64-unknown-linux-musl.tar.gz"
+    version = "0.75.0"
+
+  [[metadata.dependencies]]
+    arch = "arm64"
+    checksum = "sha256:6476588859faa7232def49ff590f199390bd93fae3826617596befc52382724f"
+    cpe = "cpe:2.3:a:pixi:pixi:0.75.0:*:*:*:*:python:*:*"
+    id = "pixi"
+    licenses = ["BSD-3-Clause"]
+    name = "pixi"
+    os = "linux"
+    purl = "pkg:generic/pixi@0.75.0?checksum=sha256:785e4f565e678eb6705151c7c625122b8c4862bd44a1875bc1b057e45aa75f51&download_url=https://github.com/prefix-dev/pixi/releases/download/v0.75.0/source.tar.gz"
+    source = "https://github.com/prefix-dev/pixi/releases/download/v0.75.0/source.tar.gz"
+    source-checksum = "sha256:785e4f565e678eb6705151c7c625122b8c4862bd44a1875bc1b057e45aa75f51"
+    stacks = ["*"]
+    uri = "https://github.com/prefix-dev/pixi/releases/download/v0.75.0/pixi-aarch64-unknown-linux-musl.tar.gz"
+    version = "0.75.0"
 
   [[metadata.dependency-constraints]]
     constraint = "*"
