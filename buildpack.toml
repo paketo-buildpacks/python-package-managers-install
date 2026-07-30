@@ -134,18 +134,6 @@ api = "0.8"
     version = "26.5.3"
 
   [[metadata.dependencies]]
-    checksum = "sha256:d9b57151cce4af0d12bf4651d7a47e70f9d02eb79e7709e4a9002d67bcc69deb"
-    cpe = "cpe:2.3:a:pypa:pip:26.1.1:*:*:*:*:python:*:*"
-    id = "pip"
-    licenses = ["MIT"]
-    purl = "pkg:generic/pip@26.1.1?checksum=d36762751d156a4ee895de8af39aa0abeeeb577f93a2eca6ab62467bbf0f8a78&download_url=https://files.pythonhosted.org/packages/b6/48/cb9b7a682f6fe01a4221e1728941dd4ac3cd9090a17db3779d6ff490b602/pip-26.1.1.tar.gz"
-    source = "https://files.pythonhosted.org/packages/b6/48/cb9b7a682f6fe01a4221e1728941dd4ac3cd9090a17db3779d6ff490b602/pip-26.1.1.tar.gz"
-    source-checksum = "sha256:d36762751d156a4ee895de8af39aa0abeeeb577f93a2eca6ab62467bbf0f8a78"
-    stacks = ["*"]
-    uri = "https://artifacts.paketo.io/pip/pip_26.1.1_noarch_d9b57151.tgz"
-    version = "26.1.1"
-
-  [[metadata.dependencies]]
     checksum = "sha256:242de3e76b9daea2debf1ac27846c52a648395c267bbb1cb39375f219750fa9f"
     cpe = "cpe:2.3:a:pypa:pip:26.1.2:*:*:*:*:python:*:*"
     id = "pip"
@@ -156,6 +144,18 @@ api = "0.8"
     stacks = ["*"]
     uri = "https://artifacts.paketo.io/pip/pip_26.1.2_noarch_242de3e7.tgz"
     version = "26.1.2"
+
+  [[metadata.dependencies]]
+    checksum = "sha256:a807a922ab18777e00a3a73daadb7f658a6b7e471802836d0c9c98ffebf3d071"
+    cpe = "cpe:2.3:a:pypa:pip:26.2.0:*:*:*:*:python:*:*"
+    id = "pip"
+    licenses = ["MIT"]
+    purl = "pkg:generic/pip@26.2.0?checksum=2d8542afcc84cdd8e846c2b36b2861fad1da376dd98f8e7113e9108a3c331690&download_url=https://files.pythonhosted.org/packages/db/96/e6f8e9d9d7b9cc4457092712a7e919c3186aa2c2fa9ffed2c5d29cc947e8/pip-26.2.tar.gz"
+    source = "https://files.pythonhosted.org/packages/db/96/e6f8e9d9d7b9cc4457092712a7e919c3186aa2c2fa9ffed2c5d29cc947e8/pip-26.2.tar.gz"
+    source-checksum = "sha256:2d8542afcc84cdd8e846c2b36b2861fad1da376dd98f8e7113e9108a3c331690"
+    stacks = ["*"]
+    uri = "https://artifacts.paketo.io/uv/pip_26.2.0_noarch_a807a922.tgz"
+    version = "26.2.0"
 
   [[metadata.dependencies]]
     checksum = "sha256:2b68298377fd141db42ddd55e38c188c846651aa6e17ac6b75ba9f1fb4c3bc9d"
