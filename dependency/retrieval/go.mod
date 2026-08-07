@@ -2,9 +2,6 @@ module github.com/paketo-buildpacks/python-package-managers-install/retrieval
 
 go 1.26.3
 
-// This is required because of a breaking change in a newer version
-replace github.com/ekzhu/minhash-lsh => github.com/ekzhu/minhash-lsh v0.0.0-20171225071031-5c06ee8586a1
-
 require (
 	github.com/Masterminds/semver/v3 v3.5.0
 	github.com/google/go-github/v81 v81.0.0
@@ -37,7 +34,7 @@ require (
 	github.com/joshuatcasey/collections v0.5.0 // indirect
 	github.com/kevinburke/ssh_config v1.6.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
-	github.com/moby/sys/mount v0.3.4 // indirect
+	github.com/moby/sys/mount v0.3.5 // indirect
 	github.com/montanaflynn/stats v0.7.0 // indirect
 	github.com/pjbgf/sha1cd v0.6.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
