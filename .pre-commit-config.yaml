@@ -31,3 +31,9 @@ repos:
       - id: go-imports
       - id: no-go-testing
       - id: golangci-lint
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.2
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+      - id: ruff-format
