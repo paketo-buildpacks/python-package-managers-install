@@ -5,6 +5,8 @@ go 1.26.5
 // This is required because of a breaking change in a newer version
 replace github.com/ekzhu/minhash-lsh => github.com/ekzhu/minhash-lsh v0.0.0-20171225071031-5c06ee8586a1
 
+replace github.com/go-enry/go-license-detector/v4 => github.com/go-enry/go-license-detector/v4 v4.3.0
+
 require (
 	github.com/Masterminds/semver/v3 v3.5.0
 	github.com/google/go-github/v81 v81.0.0
@@ -25,7 +27,7 @@ require (
 	github.com/ekzhu/minhash-lsh v0.0.0-20190924033628-faac2c6342f8 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.15 // indirect
-	github.com/go-enry/go-license-detector/v4 v4.3.1 // indirect
+	github.com/go-enry/go-license-detector/v4 v4.3.0 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
 	github.com/go-git/go-billy/v5 v5.9.1 // indirect
 	github.com/go-git/go-git/v5 v5.19.2 // indirect
