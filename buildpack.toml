@@ -15,36 +15,6 @@ api = "0.8"
 
   [[metadata.dependencies]]
     arch = "amd64"
-    checksum = "sha256:790e8ea347cf49ba250fceacdc0b022237a9150717b9e4c17f2e70abc075c05d"
-    cpe = "cpe:2.3:a:conda:miniconda3:25.7.0:*:*:*:*:python:*:*"
-    id = "miniconda3"
-    licenses = ["BSD-3-Clause"]
-    name = "Miniconda.sh"
-    os = "linux"
-    purl = "pkg:generic/miniconda3@25.7.0?checksum=f27a1e13f0ec6f6597e1a3f02963dd1f5a6343746a34f4f28ad2352f91543899&download_url=https://github.com/conda/conda/releases/download/25.7.0/conda-25.7.0.tar.gz"
-    source = "https://github.com/conda/conda/releases/download/25.7.0/conda-25.7.0.tar.gz"
-    source-checksum = "sha256:f27a1e13f0ec6f6597e1a3f02963dd1f5a6343746a34f4f28ad2352f91543899"
-    stacks = ["*"]
-    uri = "https://repo.anaconda.com/miniconda/Miniconda3-py39_25.7.0-2-Linux-x86_64.sh"
-    version = "25.7.0"
-
-  [[metadata.dependencies]]
-    arch = "arm64"
-    checksum = "sha256:18befc78dbfca5bbdc2c8085f2bedd0345a5fbf7d0f1e189fddaf2d17f31d3af"
-    cpe = "cpe:2.3:a:conda:miniconda3:25.7.0:*:*:*:*:python:*:*"
-    id = "miniconda3"
-    licenses = ["BSD-3-Clause"]
-    name = "Miniconda.sh"
-    os = "linux"
-    purl = "pkg:generic/miniconda3@25.7.0?checksum=f27a1e13f0ec6f6597e1a3f02963dd1f5a6343746a34f4f28ad2352f91543899&download_url=https://github.com/conda/conda/releases/download/25.7.0/conda-25.7.0.tar.gz"
-    source = "https://github.com/conda/conda/releases/download/25.7.0/conda-25.7.0.tar.gz"
-    source-checksum = "sha256:f27a1e13f0ec6f6597e1a3f02963dd1f5a6343746a34f4f28ad2352f91543899"
-    stacks = ["*"]
-    uri = "https://repo.anaconda.com/miniconda/Miniconda3-py39_25.7.0-2-Linux-aarch64.sh"
-    version = "25.7.0"
-
-  [[metadata.dependencies]]
-    arch = "amd64"
     checksum = "sha256:0ac18f10d17ca918247b4606df82be38eba6e23380a7eddb25b47ef6ccdb920e"
     cpe = "cpe:2.3:a:conda:miniconda3:25.9.1:*:*:*:*:python:*:*"
     id = "miniconda3"
@@ -132,6 +102,36 @@ api = "0.8"
     stacks = ["*"]
     uri = "https://repo.anaconda.com/miniconda/Miniconda3-py310_26.5.3-1-Linux-aarch64.sh"
     version = "26.5.3"
+
+  [[metadata.dependencies]]
+    arch = "amd64"
+    checksum = "sha256:acc1cda57155ecacb854b49bb5875eadb6500d1ea70176f44e8b7a321f59d620"
+    cpe = "cpe:2.3:a:conda:miniconda3:26.7.1:*:*:*:*:python:*:*"
+    id = "miniconda3"
+    licenses = ["BSD-3-Clause"]
+    name = "Miniconda.sh"
+    os = "linux"
+    purl = "pkg:generic/miniconda3@26.7.1?checksum=012e40073474b5db0c63b447aa1892fd6609bc81f998488221e18f4ee64144e5&download_url=https://github.com/conda/conda/releases/download/26.7.1/conda-26.7.1.tar.gz"
+    source = "https://github.com/conda/conda/releases/download/26.7.1/conda-26.7.1.tar.gz"
+    source-checksum = "sha256:012e40073474b5db0c63b447aa1892fd6609bc81f998488221e18f4ee64144e5"
+    stacks = ["*"]
+    uri = "https://repo.anaconda.com/miniconda/Miniconda3-py310_26.7.1-0-Linux-x86_64.sh"
+    version = "26.7.1"
+
+  [[metadata.dependencies]]
+    arch = "arm64"
+    checksum = "sha256:caf3e9652f32f40d8755c22678c315f6305c04f68c47ff3e76e625d26f17f59b"
+    cpe = "cpe:2.3:a:conda:miniconda3:26.7.1:*:*:*:*:python:*:*"
+    id = "miniconda3"
+    licenses = ["BSD-3-Clause"]
+    name = "Miniconda.sh"
+    os = "linux"
+    purl = "pkg:generic/miniconda3@26.7.1?checksum=012e40073474b5db0c63b447aa1892fd6609bc81f998488221e18f4ee64144e5&download_url=https://github.com/conda/conda/releases/download/26.7.1/conda-26.7.1.tar.gz"
+    source = "https://github.com/conda/conda/releases/download/26.7.1/conda-26.7.1.tar.gz"
+    source-checksum = "sha256:012e40073474b5db0c63b447aa1892fd6609bc81f998488221e18f4ee64144e5"
+    stacks = ["*"]
+    uri = "https://repo.anaconda.com/miniconda/Miniconda3-py310_26.7.1-0-Linux-aarch64.sh"
+    version = "26.7.1"
 
   [[metadata.dependencies]]
     checksum = "sha256:a807a922ab18777e00a3a73daadb7f658a6b7e471802836d0c9c98ffebf3d071"
