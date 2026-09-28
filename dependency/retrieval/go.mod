@@ -11,7 +11,7 @@ require (
 	github.com/Masterminds/semver/v3 v3.5.0
 	github.com/google/go-github/v81 v81.0.0
 	github.com/joshuatcasey/libdependency v0.25.0
-	github.com/nfx/go-htmltable v0.4.0
+	github.com/nfx/go-htmltable v0.5.0
 	github.com/paketo-buildpacks/packit/v2 v2.25.7
 )
 
@@ -40,7 +40,7 @@ require (
 	github.com/kevinburke/ssh_config v1.6.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.4.0 // indirect
 	github.com/moby/sys/mount v0.3.5 // indirect
-	github.com/montanaflynn/stats v0.12.6 // indirect
+	github.com/montanaflynn/stats v0.12.7 // indirect
 	github.com/pjbgf/sha1cd v0.6.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
