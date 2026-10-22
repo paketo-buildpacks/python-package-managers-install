@@ -12,13 +12,13 @@ require (
 	github.com/google/go-github/v81 v81.0.0
 	github.com/joshuatcasey/libdependency v0.25.0
 	github.com/nfx/go-htmltable v0.5.0
-	github.com/paketo-buildpacks/packit/v2 v2.25.7
+	github.com/paketo-buildpacks/packit/v2 v2.25.8
 )
 
 require (
 	dario.cat/mergo v1.0.2 // indirect
 	github.com/BurntSushi/toml v1.6.0 // indirect
-	github.com/Microsoft/go-winio v0.6.3 // indirect
+	github.com/Microsoft/go-winio v0.6.4 // indirect
 	github.com/ProtonMail/go-crypto v1.5.2 // indirect
 	github.com/anchore/packageurl-go v0.2.0 // indirect
 	github.com/cloudflare/circl v1.6.5 // indirect
