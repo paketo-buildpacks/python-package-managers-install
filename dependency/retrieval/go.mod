@@ -12,7 +12,7 @@ require (
 	github.com/google/go-github/v81 v81.0.0
 	github.com/joshuatcasey/libdependency v0.25.0
 	github.com/nfx/go-htmltable v0.5.0
-	github.com/paketo-buildpacks/packit/v2 v2.25.8
+	github.com/paketo-buildpacks/packit/v2 v2.26.0
 )
 
 require (
