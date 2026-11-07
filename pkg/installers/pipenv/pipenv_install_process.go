@@ -31,11 +31,11 @@ func NewPipenvInstallProcess(executable executable.Executable) PipenvInstallProc
 func (p PipenvInstallProcess) Execute(version, targetLayerPath, pipLayerPath string) error {
 	buffer := bytes.NewBuffer(nil)
 
-	pipPath := fmt.Sprintf("PATH=%s", filepath.Join(pipLayerPath, "bin"))
+	pipPythonPath := fmt.Sprintf("PYTHONPATH=%s", filepath.Join(pipLayerPath))
 	err := p.executable.Execute(pexec.Execution{
-		Args: []string{"install", fmt.Sprintf("pipenv==%s", version), "--user"},
+		Args: []string{"-m", "pip", "install", fmt.Sprintf("pipenv==%s", version), "--user"},
 		// Set the PYTHONUSERBASE to ensure that pipenv is installed to the newly created target layer.
-		Env:    append(os.Environ(), pipPath, fmt.Sprintf("PYTHONUSERBASE=%s", targetLayerPath)),
+		Env:    append(os.Environ(), pipPythonPath, fmt.Sprintf("PYTHONUSERBASE=%s", targetLayerPath)),
 		Stdout: buffer,
 		Stderr: buffer,
 	})

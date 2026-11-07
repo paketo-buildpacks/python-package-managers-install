@@ -8,7 +8,6 @@ import (
 	"errors"
 	"fmt"
 	"os"
-	"path/filepath"
 	"testing"
 
 	"github.com/paketo-buildpacks/packit/v2/pexec"
@@ -48,10 +47,10 @@ func testPipenvInstallProcess(t *testing.T, context spec.G, it spec.S) {
 				Expect(err).NotTo(HaveOccurred())
 
 				Expect(executable.ExecuteCall.Receives.Execution.Env).To(Equal(append(os.Environ(),
-					fmt.Sprintf("PATH=%s", filepath.Join(pipLayerPath, "bin")),
+					fmt.Sprintf("PYTHONPATH=%s", pipLayerPath),
 					fmt.Sprintf("PYTHONUSERBASE=%s", destLayerPath)),
 				))
-				Expect(executable.ExecuteCall.Receives.Execution.Args).To(Equal([]string{"install", "pipenv==1.2.3-some.version", "--user"}))
+				Expect(executable.ExecuteCall.Receives.Execution.Args).To(Equal([]string{"-m", "pip", "install", "pipenv==1.2.3-some.version", "--user"}))
 			})
 		})
 
