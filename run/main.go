@@ -47,7 +47,7 @@ func main() {
 		},
 		pipenv.Pipenv: pipenv.PipEnvBuildParameters{
 			DependencyManager:  postal.NewService(cargo.NewTransport()),
-			InstallProcess:     pipenv.NewPipenvInstallProcess(pexec.NewExecutable("pip")),
+			InstallProcess:     pipenv.NewPipenvInstallProcess(pexec.NewExecutable("python")),
 			SitePackageProcess: pipenv.NewSiteProcess(pexec.NewExecutable("python")),
 		},
 		poetry.PoetryDependency: poetry.PoetryBuildParameters{
