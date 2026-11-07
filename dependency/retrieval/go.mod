@@ -12,7 +12,7 @@ require (
 	github.com/google/go-github/v81 v81.0.0
 	github.com/joshuatcasey/libdependency v0.25.0
 	github.com/nfx/go-htmltable v0.5.0
-	github.com/paketo-buildpacks/packit/v2 v2.25.8
+	github.com/paketo-buildpacks/packit/v2 v2.26.0
 )
 
 require (
@@ -50,7 +50,7 @@ require (
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	golang.org/x/crypto v0.58.0 // indirect
 	golang.org/x/exp v0.0.0-20260410095643-746e56fc9e2f // indirect
-	golang.org/x/net v0.61.0 // indirect
+	golang.org/x/net v0.62.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
 	gonum.org/v1/gonum v0.17.0 // indirect
